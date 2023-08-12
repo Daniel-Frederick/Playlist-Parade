@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "REM", sans-serif;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  color: #1db954;
+}
+
+a:hover {
+  text-decoration: underline #1db954;
+}
+
+.stylePlaylists p {
+  margin: 0;
+  padding: 7.5px 15px;
+  font-size: 20px;
+  /* display: inline;
+  text-align: center;
+  align-content: center;
+  align-items: center; */
+}

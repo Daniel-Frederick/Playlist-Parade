@@ -1,0 +1,25 @@
+header {
+  background-color: #121212;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #1db954;
+  margin: 0;
+  padding-top: 15px;
+}
+
+p {
+  padding: 20px;
+  margin: 0;
+}
+
+.title {
+  font-size: 4.5rem;
+  font-family: "Fugaz One", cursive;
+}

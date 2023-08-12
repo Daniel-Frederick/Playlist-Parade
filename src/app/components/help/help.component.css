@@ -1,0 +1,35 @@
+section {
+  background-color: #121212;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.title {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 3rem;
+  color: #1db954;
+  margin: 0;
+  padding: 15px;
+}
+
+.profile {
+  height: 250px;
+}
+
+li {
+  padding-bottom: 20px;
+  font-size: 1.4rem;
+}
+
+li p {
+  margin: 0;
+}
+
+.link {
+  height: 50px;
+}
+
+.addUsername {
+  height: 150px;
+}

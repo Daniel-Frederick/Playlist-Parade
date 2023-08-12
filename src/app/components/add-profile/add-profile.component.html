@@ -1,0 +1,35 @@
+<section>
+  <h2 class="title">View a Profile!</h2>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-container">
+      <p class="username">Profile Username:</p>
+      <input
+        type="text"
+        name="username"
+        [(ngModel)]="username"
+        placeholder="Username..."
+        id="text"
+      />
+      <!-- When I figure out how to use routes in github pages, that I can add routes and connect the help link in -->
+      <a routerLink="/help" class="help">Help</a>
+      <!-- <p *ngIf="warningUsername" class="warning">No username entered!</p> -->
+    </div>
+    <br />
+    <!-- <div class="form-container">
+      <p>Your Playlist ID:</p>
+      <input
+        type="text"
+        name="playlists"
+        [(ngModel)]="playlists"
+        placeholder="Add your playlist here!"
+      />
+      <p *ngIf="warningPlaylists" class="warning">No playlist Entered!</p>
+    </div>
+    <br /> -->
+    <p *ngIf="profileNotFound" class="warning">Could not find profile!</p>
+    <button type="submit" title="Add Profile" id="submitProfileButton">
+      Add Profile
+    </button>
+  </form>
+  <br />
+</section>

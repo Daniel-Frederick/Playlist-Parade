@@ -1,0 +1,5 @@
+<app-add-profile (addProfile)="addProfile($event)"></app-add-profile>
+<app-single-profile
+  *ngFor="let profile of profiles"
+  [profile]="profile"
+></app-single-profile>
