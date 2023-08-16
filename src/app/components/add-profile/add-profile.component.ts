@@ -23,7 +23,7 @@ export class AddProfileComponent {
         artistLimit: '15',
       },
       headers: {
-        'X-RapidAPI-Key': '06e79c5f01msh5a2b2aae3e6477ap144ae3jsnd7b4d9848667',
+        'X-RapidAPI-Key': '',
         'X-RapidAPI-Host': 'spotify23.p.rapidapi.com',
       },
     };
