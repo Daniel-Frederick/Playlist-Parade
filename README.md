@@ -1,5 +1,5 @@
 # Playlist-Parade
 
-Try out my Playlist Parade now!
+Try out Playlist Parade now!
 
 https://playlist-parade.firebaseapp.com/
